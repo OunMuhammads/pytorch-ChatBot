@@ -1,4 +1,4 @@
-# Pytorch-ChatBot
+# [Pytorch-ChatBot](https://github.com/OunMuhammads/pytorch-ChatBot)
 I have built a chatbot that uses a neural network to understand and respond to user input. The chatbot is based on a set of intents and responses that are defined in a JSON file. These intents describe different topics that the chatbot can help with, such as greeting the user, providing information about a product, or answering a question.
 
 
@@ -8,7 +8,7 @@ I am using a bag-of-words approach to represent the user's input as a vector of 
 When the chatbot receives user input, it tokenizing the input and converts it into a bag-of-words representation using the same vocabulary as the training data. The bag-of-words vector is then fed into the neural network to produce a probability distribution over the different intents. The chatbot selects the intent with the highest probability and uses the associated response to generate a message back to the user.
 
 
-#Here is an example of tokenization:
+Here is an example of tokenization:
 
 
 Input: "What is the weather like today?"
